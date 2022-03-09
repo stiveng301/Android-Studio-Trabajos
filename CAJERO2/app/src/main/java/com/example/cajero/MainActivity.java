@@ -113,9 +113,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void Retirar(View view)
     {
+
         float result;
-        AdminBD admin = new AdminBD(this, "basedatos", null, 1 );
-        SQLiteDatabase BasedeDatos = admin.getWritableDatabase();
         String saldoS = saldo.getText().toString();
         String saldodebitadoS = debitar.getText().toString();
 
@@ -132,7 +131,6 @@ public class MainActivity extends AppCompatActivity {
             result = (saldoini-saldodebitado);
             resultado.setText(String.valueOf(result));
             Toast.makeText(this, "Saldo debitado correctamente)", Toast.LENGTH_SHORT).show();
-            BasedeDatos.close();
         }else
             Toast.makeText(this, "No se puede hacer el retiro (Valor mayor al permitido)", Toast.LENGTH_SHORT).show();
         }
