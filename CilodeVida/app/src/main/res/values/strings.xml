@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">CilodeVida</string>
     <string name="Boton_Uno">Boton Uno</string>
-    <string name="Boton_Dos">Boton Dos</string>
+    <string name="Boton_Dos">Realizar Llamada</string>
+    <string name="Email">Email</string>
+    <string name="clave">Contraseña</string>
 </resources>
