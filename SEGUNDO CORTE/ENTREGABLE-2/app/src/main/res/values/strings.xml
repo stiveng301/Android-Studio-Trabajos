@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ENTREGABLE 2</string>
+    <string name="nombreContacto">Nombre Contacto</string>
+    <string name="ultimoMensaje">Último Mensaje</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="horaMensaje">Hora Mensaje</string>
+
+</resources>
